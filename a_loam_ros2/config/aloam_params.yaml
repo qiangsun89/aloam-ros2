@@ -1,0 +1,14 @@
+scan_registration_node:
+  ros__parameters:
+    scan_line: 16
+    minimum_range: 0.1
+    pub_each_line: false
+
+laser_odometry_node:
+  ros__parameters:
+    mapping_skip_frame: 5
+
+laser_mapping_node:
+  ros__parameters:
+    mapping_line_resolution: 0.4
+    mapping_plane_resolution: 0.8
